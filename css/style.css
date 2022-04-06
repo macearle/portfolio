@@ -1,0 +1,288 @@
+body{
+	margin:1%;
+	padding:1%;
+	font-size:150%;
+	background-color: white;
+}
+
+h1{
+	font-size: 80px; 
+	font-weight: bold;
+	font-family: 'Playfair Display', serif;
+	color: rgb(165, 73, 165); 
+	line-height: 3;
+}
+
+h2{
+	font-size: 40px;
+	line-height: 3;
+	font-family: 'Playfair Display', serif;
+	color:rgb(255, 71, 101);
+}
+
+h3{
+	font-size: 30px;
+	line-height: 3;
+	font-family: 'Playfair Display', serif;
+	color:rgb(255, 71, 101);
+}
+
+h4{
+	font-size: 27px;
+	line-height: 2px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	color:rgb(165, 73, 165);
+}
+
+p{
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	line-height: 3;
+	color: black;
+	padding: 15px;
+}
+
+#changecolor{
+	color:rgb(165, 73, 165);
+	line-height: 1;
+}
+
+#heights{
+	line-height:1;
+}
+
+
+img{
+	width: 200px;
+	padding: 10;
+	margin: 0 auto;
+	border: solid 3px rgb(165, 73, 165);
+}
+
+
+#sisterhoodsquares{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: right;
+}
+
+.biglittle{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.gamedays{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.mcbonding{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+
+#philintroimage{
+	float:right;
+	margin: 20px;
+}
+
+.philimages{
+	display: grid;
+	padding: 20px;
+}
+
+#img1{
+	grid-column: 1 / 2; 
+	grid-row: 1 / 2;
+}
+#img2{
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+}
+
+#img3{
+	grid-column: 3 / 4;
+	grid-row: 1 / 2;
+}
+
+#img4{
+	grid-column: 4 / 5;
+	grid-row: 1 / 2;
+}
+
+#img5{
+	float:right;
+	margin: 20px;
+}
+
+#img6{
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+}
+
+#img7{
+	grid-column: 3 / 4;
+	grid-row: 2 / 3;
+}
+
+#img8{
+	grid-column: 4 / 5;
+	grid-row: 2 / 3;
+}
+
+.pill-nav{
+	background-image: linear-gradient(rgb(165, 73, 165), rgb(244, 235, 245));
+	text-decoration-style: none;
+}
+
+.pill-nav a{
+	text-transform: lowercase;
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: left;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 25px; 
+	color: black;
+	padding: 50px 25px; 
+	border-radius: 2px;
+	font-family: 'Playfair Display', serif;
+}
+
+.pill-nav li{
+	padding: 0 20px;
+	display: inline-block;
+}
+
+.pill-nav a:hover{
+	background-color: purple;
+	color: white;
+}
+
+.pill-nav a.active{
+	text-decoration:underline;
+	border-radius: 2px;
+	text-decoration-style: solid;
+}
+
+
+/*.backgroundimg{
+	background-image: url(../images/background.jpg);
+	object-fit: cover;
+	object-position: center;
+} */
+
+.skip{
+	position: relative;
+	text-decoration: none;
+  	top: -70px;
+	color: white;
+}
+
+.skip:focus{
+	top: 0px;
+}
+
+.link{
+	color: black;
+}
+
+form{
+	box-sizing: border-box;
+	display: inline-block;
+	color: white;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+input[type=name], select, textarea{
+	width:100%;
+	padding: 15px;
+	border: 2px solid rgb(165, 73, 165);
+	border-radius: 2px;
+	resize: vertical;
+}
+
+input[type=email], select, textarea{
+	width:100%;
+	padding: 15px;
+	border: 2px solid rgb(165, 73, 165);
+	border-radius: 2px;
+	resize: vertical;
+}
+
+input[type=message], select, textarea{
+	width:100%;
+	padding: 15px;
+	border: 2px solid rgb(165, 73, 165);
+	border-radius: 2px;
+	resize: vertical;
+}
+
+label{
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+
+input[type=submit]{
+	background-color:rgb(165, 73, 165);
+	color: white;
+	padding: 12px 20px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover{
+	background-color: gray;
+}
+
+.container {
+	border-radius: 5px;
+	background-color: rgb(165, 73, 165);
+	padding: 20px;
+  }
+  
+  .col-25 {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+  }
+  
+  .col-75 {
+	width: 75%;
+	margin-top: 6px;
+  }
+
+footer{
+	padding: 15px 0;
+	line-height: 2;
+}
+
+footer p{
+	color:rgb(87, 1, 87);
+	display: flex;
+	justify-content: center;
+}
+
+.fa-brands{
+	animation: move 3s ease;
+}
+
+@keyframes move{
+	from {width: 20px; opacity:0; color: black;}
+		to {width: 20px; opacity:1; color: white;}
+}
+
+@media screen and (prefers-reduced-motion: reduce){
+	.fa-brands{
+		animation:none;
+	}
+}
