@@ -6,7 +6,10 @@
 	<link rel="icon" href="images/favicon.jpg">
 	<link rel="stylesheet" href="css/html5resetcopy.css">
 	<link rel = "stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,700;1,900&display=swap" rel="stylesheet">
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SL5FM4X7DW"></script>
 <script>
@@ -28,10 +31,18 @@
 					<li><a href = "index.html">Home</a></li>
 					<li><a class = "active" href = "sisterhood.html">Sisterhood</a></li>
 					<li><a href = "philanthropy.html">Philanthropy</a></li>
-					<li><a href = "photogallery.html">Photo Gallery</a></li>
 					<li><a href = "contact.html">Contact Us</a></li>
 				</ul>
 			</nav>
+		</div>
+		<div>
+			<button class = "button" onclick= "darkMode()">Darkmode</button>
+		  <script>
+			function darkMode() {
+			  var element = document.body;
+			  element.classList.toggle("dark-mode");
+			}
+		  </script>
 		</div>
 		<h1>Alpha Chi Omega</h1>
             <h2>Sisterhood</h2>
@@ -44,12 +55,14 @@
 				<p id="heights">In AXO, we have a tradition of a mentorship program that is called Big Little. Essentially, a few months after a new class of members join our sorority, 
 					we have a month where these new members get to know the members a year older than them. After various activities in both group and one on one settings, there is a 
 					Big Little reveal week. This is when older members create baskets with AXO merchandise, and all of their little's favorite things. At the end of this week,
-					we have a reveal celebration for the bigs and littles to spend time together. A member's big serves as her mentor for the rest of their time in AXO. The new members 
+					we have a reveal celebration for the bigs and littles to spend time together, where they dress up as themes or iconic duos, such as Ketchup and Mustard or Hannah Montanna and her side kick, Lola. A member's big serves as her mentor for the rest of their time in AXO. The new members 
 					also get the opportunity to have close relationships with members of all grades, as they spend time with their entire lineage. Their bigs and grand bigs lead them 
 					through Initiation, and with any struggle they are facing. Your big is a built in big sister!</p>
 
 					<img src = "images/biglittle.JPG" alt="Mari and Tati at initiation." width="200"/>
 					<img src = "images/initiation.JPG" alt="Initiation picture outside the house from 2021." width="200"/>
+					<img src = "images/biglittlekenz.jpg" alt = "a big little pair dressed as Hannah Montanna and Lola" width = "200"/>
+
 
 			</div>
 
@@ -61,7 +74,6 @@
 
 				<img src = "images/gamewalking.JPG" alt="Walking with sisters to the big house." width="200"/>
 				<img src = "images/wendyaudrey.JPG" alt="Our juniors spending time together on game day!" width="200"/>
-				<img src = "images/gamedayhouse.JPG" alt="MC21 picture in front of the house before a football game." width="200"/>
 				<img src = "images/avasaigame.JPG" alt="Game day with Ava and Saira!" width="200"/>
 
 			</div>
@@ -69,14 +81,13 @@
 			<div class="mcbonding">
 				<h3>Other Bonding Events</h3>
 				<p id="heights">Throughout the school year, we have many other various events for our sisters to get to know each other. From organized events such as trips up north during fall break,
-					or visiting the county fair, to spur of the moment bonding time like getting ready in the house together, or going on walks. Pictured below is also one of our favorite days of wonter semester,
+					or visiting the county fair, to spur of the moment bonding time like getting ready in the house together, or going on walks. Pictured below is also one of our favorite days of winter semester,
 					bid day! Bid day is when we welcome our new freshman member class, and every member of every grade is at the house to celebrate as our new members run home!
 				</p>
 				
 				<img src = "images/mc21bonding.JPG" alt="Our sophomore sisters at the county fair." width="200"/>
 				<img src = "images/mc22.JPG" alt="Welcoming in our new member class at 2022 bid day." width="200"/>
 				<img src = "images/sairasara.JPG" alt="Sara and Saira during primary recruitment preference round." width="200"/>
-				<img src = "images/hugs.JPG" alt="Hugs with our sisters on fall break at the beach!" width="200"/>
 
 			</div>
 

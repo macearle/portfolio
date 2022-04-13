@@ -6,7 +6,11 @@
 	<link rel="icon" href="images/favicon.jpg">
 	<link rel="stylesheet" href="css/html5resetcopy.css">
 	<link rel = "stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,700;1,900&display=swap" rel="stylesheet">
+
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SL5FM4X7DW"></script>
 <script>
@@ -16,41 +20,68 @@
 
   gtag('config', 'G-SL5FM4X7DW');
 </script>
-	
 	<title>Home</title>
 </head>
 
 <body>
-	<a class = 'skip' href ="index.html">Skip to main Content</a>
-	<header>
-		<div class= "pill-nav">
-			<nav>
-				<ul>
-					<li><a class = "active" href = "index.html">Home</a></li>
-					<li><a href = "sisterhood.html">Sisterhood</a></li>
-					<li><a href = "philanthropy.html">Philanthropy</a></li>
-					<li><a href = "photogallery.html">Photo Gallery</a></li>
-					<li><a href = "contact.html">Contact Us</a></li>
-				</ul>
-			</nav>
-		</div>
+		<a class = 'skip' href ="index.html">Skip to main Content</a>
+		<header>
+			<div class= "pill-nav">
+				<nav>
+					<ul>
+						<li><a class = "active" href = "index.html">Home</a></li>
+						<li><a href = "sisterhood.html">Sisterhood</a></li>
+						<li><a href = "philanthropy.html">Philanthropy</a></li>
+						<li><a href = "contact.html">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div>
+				<button class = "button" onclick= "darkMode()">Darkmode</button>
+			  <script>
+				function darkMode() {
+				  var element = document.body;
+				  element.classList.toggle("dark-mode");
+				}
+			  </script>
+			</div>
+
+			<h1>Alpha Chi Omega</h1>
+				<h3>Welcome to Alpha Chi Omega at the University of Michigan!</h3>
+		</header>
+
+
+		<main>
+			<p id = "heights">With over 200 active members, Alpha Chi Omega is proud to host our Theta Chapter on Michigan's Campus. Here are some photos of our members from the current school year!</p>
+
+			<div class = "container_">
+				<img src = "images/mc19gameday.JPG" alt="junior pc before a football game" width="200"/>
+				<img src = "images/prefgold.jpg" alt="some sophomore sisters at preference round of primary recruitment" width="200"/>
+				<img src = "images/winterfest.jpg" alt = "two of our sophomores cheering on the seniors at a winterfest hockey game" width = "200"/>
+				<img src = "images/savas.jpg" alt = "two of our sophomores at Sava's!"/> 
+				<img src = "images/avina.jpeg" alt= "our sister hanging on the beach" width="200"/>
+				<img src = "images/froshpattysgroup.jpeg" alt= "our freshman members bonding on st patty's day" width="200"/>
+				<img src = "images/biddayalyssaashley.jpeg" alt= "a sophomore welcoming a new member on bid day" width="200"/>
+				<img src = "images/emmabysolo.jpeg" alt= "one of our junior members studying abroad" width="200"/> 
+				<img src = "images/froshnash.jpeg" alt= "a few of our freshman members posing in nashville" width = "200"/> 
+				<img src = "images/pattysgabby.jpeg" alt= "smiles for st pattys day" width = "200"/> 
+				<img src = "images/hugs.JPG" alt="Hugs with our sisters on fall break at the beach!" width="200"/>
+				<img src = "images/skating.jpg" alt= "group of mc21 ice skating in detroit!" width="200"/>
+			</div>
 		
-		<h1>Alpha Chi Omega</h1>
-			<h3>Welcome to Alpha Chi Omega at the University of Michigan!</h3>
-	</header>
 
-	<main>
-			<p id = "heights">With over 200 active members, Alpha Chi Omega is proud to host our Theta Chapter on Michigan's Campus.</p>
-
-		<div class= "backgroundimg">
-			<p id= "changecolor"> Located on 1212 Hill Street, we create memories that last a lifetime. 
+			<div>
+				<p id= "changecolor"> Located on 1212 Hill Street, we create memories together that last a lifetime. 
 				Check out our national headquarters <a class = "link" href = "https://www.alphachiomega.org/">website</a> . 
-        	</p>
-		</div>
-	
-	</main>
+        		</p>
+			</div>
+
+
+		</main>
 		<footer>
 			<p>Alpha Chi Omega &copy; 2021</p>
 		</footer>
+	
+
 </body>
 </html>
