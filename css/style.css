@@ -6,7 +6,7 @@ body{
 }
 
 h1{
-	font-size: 80px; 
+	font-size: 100px; 
 	font-weight: bold;
 	font-family: 'Lato', sans-serif;
 	font-style: italic;
@@ -15,7 +15,7 @@ h1{
 }
 
 h2{
-	font-size: 40px;
+	font-size: 70px;
 	line-height: 3;
 	font-family: 'Lato', sans-serif;
 	font-style: italic;
@@ -23,7 +23,7 @@ h2{
 }
 
 h3{
-	font-size: 30px;
+	font-size: 45px;
 	line-height: 3;
 	font-family: 'Lato', sans-serif;
 	font-style: italic;
@@ -31,26 +31,30 @@ h3{
 }
 
 h4{
-	font-size: 27px;
+	font-size: 32px;
 	line-height: 2px;
 	font-family: 'Lato', sans-serif;
 	color:rgb(165, 73, 165);
 }
 
+.skip{
+	position: relative;
+	text-decoration: none;
+  	top: -70px;
+	color: white;
+	margin: auto;
+}
+
+.skip:focus{
+	top: 0px;
+	color: black;
+}
+
 p{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato', sans-serif; 
 	line-height: 3;
 	color: black;
 	padding: 15px;
-}
-
-#changecolor{
-	color:rgb(165, 73, 165);
-	line-height: 1;
-}
-
-#heights{
-	line-height:1;
 }
 
 img{
@@ -58,40 +62,6 @@ img{
 	padding: 10;
 	margin: 0 auto;
 	border: solid 3px rgb(165, 73, 165);
-}
-
-#sisterhoodsquares{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: right;
-}
-
-.biglittle{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-}
-
-#deiimage{
-	display: flex;
-	justify-content: center;
-	width: 500px;
-}
-
-.gamedays{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-}
-
-.mcbonding{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
 }
 
 .pill-nav{
@@ -130,6 +100,50 @@ img{
 	text-decoration:underline;
 	border-radius: 2px;
 	text-decoration-style: solid;
+}
+
+#changecolor{
+	color:rgb(165, 73, 165);
+	line-height: 1;
+}
+
+#heights{
+	line-height:1;
+}
+
+
+#sisterhoodsquares{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: right;
+}
+
+.biglittle{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+#deiimage{
+	display: flex;
+	justify-content: center;
+	width: 500px;
+}
+
+.gamedays{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.mcbonding{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 /* flip card */ 
@@ -176,18 +190,6 @@ img{
 	transform: rotateY(180deg);
   }
 
-
-.skip{
-	position: relative;
-	text-decoration: none;
-  	top: -70px;
-	color: white;
-}
-
-.skip:focus{
-	top: 0px;
-	color: black;
-}
 
 .flip-card:focus{
 	transform: rotateY(180deg)
